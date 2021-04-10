@@ -30,6 +30,8 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    // 안드로이드 뷰 바인딩 기능을 활성화 합니다.
+    buildFeatures { viewBinding = true }
 }
 
 dependencies {
