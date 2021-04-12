@@ -18,12 +18,12 @@ class MainActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
         
-//        binding.button.setOnClickListener(object : View.OnClickListener {
-//            override fun onClick(p0: View?) {
-//                sendMessage(view)
-//            }
-//        }
-//        )
+        binding.button.setOnClickListener(object : View.OnClickListener {
+            override fun onClick(p0: View?) {
+                sendMessage(view)
+            }
+        }
+        )
     }
 
     fun sendMessage(view: View){
